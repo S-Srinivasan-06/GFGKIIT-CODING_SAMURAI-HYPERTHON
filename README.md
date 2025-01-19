@@ -37,7 +37,7 @@ python main.py
 Contributions are welcome! Please open an issue or submit a pull request with your suggestions.
 
 ## Video Link
-[Link](https://drive.google.com/file/d/1vJQ0v7RcWYNRVkEPZ2dtab2bMvo2NmGh/view?usp=sharing)
+[Link](https://drive.google.com/file/d/1jnQhUx0JU3120k-oz_QvUSp_PzGEjNHt/view?usp=sharing)
 
 ## License
 This project is licensed under the MIT License.
