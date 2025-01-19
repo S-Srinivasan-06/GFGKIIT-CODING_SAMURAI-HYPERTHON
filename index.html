@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning with AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Learning with AI</h1>
+        <div class="topics">
+            {% for topic, subtopics in topics.items() %}
+            <div class="topic-section">
+                <h2>{{ topic.title() }}</h2>
+                <ul>
+                    {% for subtopic in subtopics %}
+                    <li><a href="{{ url_for('learn', topic=topic, subtopic=subtopic) }}">{{ subtopic }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
