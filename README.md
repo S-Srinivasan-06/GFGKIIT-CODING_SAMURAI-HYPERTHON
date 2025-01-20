@@ -27,10 +27,7 @@ From [Link](https://aistudio.google.com/)
 To run the project, execute the following command:
 ```bash
 python main.py
-```
-## Team Members:
-- Sanjeev Kumar
-- S.Srinivasan
+```
 
 
 ## Contributing
